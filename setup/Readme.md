@@ -4,7 +4,6 @@
 
 the software has these components:
 
-* arduino serial converter (not included)
 * Mosquito pub/sub -> mosquito (docker, Server on windows linux)
 * backend -> datamapping (Nodejs)
 * frontend backend with websocket -> websocket_backend (Nodejs)
@@ -16,6 +15,11 @@ the software has these components:
 ## Colorado
 
 [preferences](documentation_for_colorado.docx)
+
+## Raspi
+
+Use Raspi as server. All Installs are possible with ansible scripts
+<https://github.com/hias222/ansibleswim#readme>
 
 ## Details
 
