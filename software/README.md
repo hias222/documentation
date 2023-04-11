@@ -46,11 +46,11 @@ libs for os in folder receiver/libxx
 
 ### OS
 
-* [windows](binaries/win/Release/Readme.md)
-* [linux64](binaries/linux64/Readme.md)
-* [aarch64](binaries/aarch64/Readme.md)
-* [mac](binaries/mac/Readme.md)
-* [macarm](binaries/m1/Readme.md)
+* [windows](https://github.com/hias222/serial/tree/master/binaries/win/Release/Readme.md)
+* [linux64](https://github.com/hias222/serial/tree/master/binaries/linux64/Readme.md)
+* [aarch64](https://github.com/hias222/serial/tree/master/binaries/aarch64/Readme.md)
+* [mac](https://github.com/hias222/serial/tree/master/binaries/mac/Readme.md)
+* [macarm](https://github.com/hias222/serial/tree/master/binaries/m1/Readme.md)
 
 ## Information about testing and compiling
 
