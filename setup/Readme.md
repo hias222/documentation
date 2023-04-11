@@ -52,7 +52,7 @@ brew install mosquitto
 brew list mosquitto
 ln -s /usr/local/Cellar/mosquitto/1.6.8/bin/mosquitto_sub /usr/local/bin/mosquitto_sub
 
-### node + pm2 
+### node + pm2
 
 LTS Version 15.x downlode from nodejs.org as windows installer
 
@@ -159,7 +159,7 @@ Create new rspberry image out of pi-gen, create a config file out of example
 
 <https://www.digitalocean.com/community/tutorials/how-to-build-a-node-js-application-with-docker>
 
-https://mherman.org/blog/dockerizing-a-react-app/
+<https://mherman.org/blog/dockerizing-a-react-app/>
 
 ### React only
 
@@ -183,10 +183,7 @@ docker-compose -f docker-compose-prod.yml up -d --build
 
 docker-compose up
 
-
-# Addons
-
-## 7 zoll
+### 7 zoll
 
 ```bash
 hdmi_group=2

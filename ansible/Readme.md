@@ -10,6 +10,10 @@
 * FTDI works on linux, mac and Windows
 * on linux you need to diasble other libs (rmmod ftdi_sio, add ftdi_sio to /etc/modprobe.d/blacklist.conf)
 
+Repo for ansible
+
+[ansibleswim][ansible_repo]
+
 login problems
 <https://wiki.archlinux.org/title/LightDM#Enabling_autologin>
 
@@ -93,3 +97,5 @@ ansible-playbook cassandra.yml -i inventories/production/hosts --limit vmbox -e 
 ### webcam
 
 [Webcam](roles/webcam/Readme.md)
+
+[ansible_repo]: https://github.com/hias222/ansibleswim
