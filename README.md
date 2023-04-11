@@ -19,3 +19,7 @@ This compiles code to receive serial data from colorado
 [sw_readme]: software/README.md
 [ansible_readme]: ansible/Readme.md
 [setup/Readme.md]: setup/Readme.md
+
+## Simulation serial
+
+<https://github.com/hias222/serial-sender>

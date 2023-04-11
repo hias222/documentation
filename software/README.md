@@ -2,7 +2,8 @@
 
 ## Description
 
-This tool receives data of colorado System 6 over a serial/usb on linux/mac/raspberry/windows to local MQTT topic. After this, it can be forwarded to a website for live timing. See [ansibleswim][ansible_repo] repo for details about using all softwareparts on a raspberry.
+This tool receives data of colorado System 6 over a serial/usb on linux/mac/raspberry/windows to local MQTT topic. After this, it can be forwarded to a website for live timing. See  [ansibleswim][ansible_repo]  
+raspberry.
 
 ## Install
 
