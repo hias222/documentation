@@ -14,7 +14,6 @@ To connect the USB pc port to system6 scorboard rs232 jack 6.3 (not usb) you nee
 * converter cable from jack to usb build your own (it is very easy, also possible to split it to 2 ports)
 * 9 Pin DB9 Female to 3.4mm male jack with adapter to 6.3mm (-> ebay, amazon)
 
-
 ### MQTT server for testing
 
 #### Docker

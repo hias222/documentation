@@ -86,7 +86,7 @@ ansible-playbook -i inventories/production/hosts frontendServices.yml --limit=<s
 ```
 
 ansible-playbook site.yml -i inventories/production/hosts --limit vmbox
-ansible-playbook -i inventories/production/hosts testService.yml --limit=rpi 
+ansible-playbook -i inventories/production/hosts testService.yml --limit=rpi
 
 ### overwrite globals
 
@@ -96,6 +96,7 @@ ansible-playbook cassandra.yml -i inventories/production/hosts --limit vmbox -e 
 
 ### webcam
 
-[Webcam](roles/webcam/Readme.md)
+[Webcam][webcam_link]
 
 [ansible_repo]: https://github.com/hias222/ansibleswim
+[webcam_link]: roles/webcam/Readme.md
