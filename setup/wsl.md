@@ -23,3 +23,6 @@ lsusb
 # see and restart colrado, normal uses /dev/ttyUSB0
 ```
 
+## install
+
+Installation with ansible scripts 
