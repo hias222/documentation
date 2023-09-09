@@ -10,6 +10,12 @@ Software on raspberry will be configured by ansible
 
 [Configure on RPI][ansible_readme]
 
+## Software setup windows WSL
+
+Some hints to prepare on windows subsystem for linux
+
+[Configure on WSL][wsl_readme]
+
 ## Software Compile
 
 This compiles code to receive serial data from colorado
@@ -18,6 +24,7 @@ This compiles code to receive serial data from colorado
 
 [sw_readme]: software/README.md
 [ansible_readme]: ansible/Readme.md
+[wsl_readme]: setup/wsl.md
 [setup/Readme.md]: setup/Readme.md
 
 ## Simulation serial
