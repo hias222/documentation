@@ -138,16 +138,16 @@ Library instll see
 
 2019:   
 c++ compiler
-<https://docs.microsoft.com/de-de/cpp/build/building-on-the-command-line?view=vs-2019>
---> Build Tools (Buildtools für Visual Studio 2019)
---> Desktop development c++
---> English language pack
+<https://docs.microsoft.com/de-de/cpp/build/building-on-the-command-line?view=vs-2019>  
+--> Build Tools (Buildtools für Visual Studio 2019)  
+--> Desktop development c++  
+--> English language pack  
 
 2022:   
 Visual Studio Code 2022 - check install build tools   
---> English Language Package needed
---> Desktop Development
---> Build Tools
+--> English Language Package needed  
+--> Desktop Development  
+--> Build Tools  
 
 without compiler install
 
@@ -182,10 +182,10 @@ vcpkg.exe install pthreads
 
 ```cmd
 vcpkg.exe install openssl:x64-windows
-vcpkg.exe install pthreads_x64-windows
+vcpkg.exe install pthreads:x64-windows
 ```
 
-Error: No suitable Visual Studio instances were found 
+Error: No suitable Visual Studio instances were found  
 --> Visual Studio not installed correct see above  
 --> Install c++ build tools
 
