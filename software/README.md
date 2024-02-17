@@ -142,6 +142,8 @@ c++ compiler
 --> Desktop development c++
 --> English language pack
 
+Visual Studio Code 2022 - check install build tools
+
 without compiler install
 
 * vc_redistx86.exe - included in binaries
