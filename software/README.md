@@ -146,7 +146,7 @@ c++ compiler
 2022:   
 Visual Studio Code 2022 - check install build tools   
 --> English Language Package needed  
---> Desktop Development  
+--> Desktop Development c++  
 --> Build Tools  
 
 without compiler install
@@ -193,7 +193,7 @@ CMake projects should use: "-DCMAKE_TOOLCHAIN_FILE=C:/Users/User/git/vcpkg/scrip
 
 ### compile in Visual Studio Code
 
-Plugins
+Plugins (C/C++ Extension Pack)
 
 * C/C++
 * Cmake
@@ -201,14 +201,16 @@ Plugins
 
 CMake Changes
 
-* edit USE_HOME_DIR to the git folder
+* edit USER_HOME_DIR to the git folder - CMakeList.txt
 
-Open the visual studio command prompt!  
+Open the visual studio command prompt - Developer Command Prompt!  
 
 * version x86 - 32 bit
 * version x64 - 64 bit
 
 ```cmd
+# serial base dir
+mkdir build
 cd build
 cmake ../
 # release
