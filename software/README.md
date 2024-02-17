@@ -136,13 +136,18 @@ Library instll see
 
 ### compiler Visual Studio
 
+2019:   
 c++ compiler
 <https://docs.microsoft.com/de-de/cpp/build/building-on-the-command-line?view=vs-2019>
 --> Build Tools (Buildtools für Visual Studio 2019)
 --> Desktop development c++
 --> English language pack
 
-Visual Studio Code 2022 - check install build tools
+2022:   
+Visual Studio Code 2022 - check install build tools   
+--> English Language Package needed
+--> Desktop Development
+--> Build Tools
 
 without compiler install
 
@@ -180,7 +185,9 @@ vcpkg.exe install openssl:x64-windows
 vcpkg.exe install pthreads_x64-windows
 ```
 
-Error: No suitable Visual Studio instances were found -> Visual Studio not installed correct see above  
+Error: No suitable Visual Studio instances were found 
+--> Visual Studio not installed correct see above  
+--> Install c++ build tools
 
 CMake projects should use: "-DCMAKE_TOOLCHAIN_FILE=C:/Users/User/git/vcpkg/scripts/buildsystems/vcpkg.cmake"
 
